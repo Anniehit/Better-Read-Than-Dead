@@ -1,4 +1,4 @@
-const {db, Admin, User, Product, Tag} = require('../server/db')
+const {db, User, Product, Tag} = require('../server/db')
 
 const seed = async () => {
   try {
